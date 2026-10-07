@@ -1,16 +1,66 @@
-# React + Vite
+# 🎬 Movie Recommendation App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern movie discovery and recommendation web application built with **React**, **JavaScript**, and the **TMDB API**.
 
-Currently, two official plugins are available:
+The app allows users to explore popular movies, search for movies, and view useful information such as ratings, release year, language, and movie posters.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+Coming soon...
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Preview
 
-## Expanding the ESLint configuration
+<!-- Add a screenshot of your application here -->
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 🎬 Browse popular movies
+- 🔍 Search for movies
+- ⭐ Display movie ratings
+- 📅 Display movie release year
+- 🌐 Display original movie language
+- 🖼️ Display movie posters
+- ⏳ Loading state while movies are being fetched
+- ⚠️ Error handling for failed API requests
+- 🎨 Responsive and modern UI
+- 🌄 Custom background and hero section
+
+## 🛠️ Technologies Used
+
+- **React**
+- **JavaScript**
+- **Vite**
+- **Tailwind CSS**
+- **TMDB API**
+- **HTML**
+- **CSS**
+- **Git & GitHub**
+
+## 📂 Project Structure
+
+```text
+MovieRecommendation/
+│
+├── public/
+│   ├── favicon.svg
+│   └── icons.svg
+│
+├── src/
+│   ├── assets/
+│   │   ├── BG.png
+│   │   └── ...
+│   │
+│   ├── components/
+│   │   ├── MovieCard.jsx
+│   │   └── Search.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
